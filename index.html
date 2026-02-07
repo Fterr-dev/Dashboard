@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mpuza Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-content">
+            <div class="nav-left">
+                <span class="logo">Mpuza</span>
+                <div class="nav-item"><i class="fa-solid fa-users"></i><span>My Network</span><span class="badge">10+</span></div>
+                <div class="nav-item"><i class="fa-solid fa-book"></i><span>Courses</span><span class="badge">2</span></div>
+                <div class="nav-item"><i class="fa-solid fa-bell"></i><span>Notifications</span><span class="badge">7</span></div>
+                <div class="nav-item"><i class="fa-solid fa-briefcase"></i><span>Job Alerts</span><span class="badge">9</span></div>
+            </div>
+            <div class="nav-center">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="user-pill">
+                    <img src="passport.jpg" width="30" style="border-radius: 100%;" alt="user">
+                    <span>Me <i class="fa-solid fa-caret-down"></i></span>
+                </div>
+                <button class="btn-refresher">Become Refresher</button>
+                <div class="switch-box">
+                    <i class="fa-solid fa-table-cells"></i>
+                    <span>Switch to <i class="fa-solid fa-caret-down"></i></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-wrapper">
+        <aside class="col-profile">
+            <div class="card p-0 overflow-hidden">
+                <div class="profile-header">
+                    <img src="passport.jpg" class="profile-img">
+                </div>
+                <div class="profile-details">
+                    <h3>kalisa Felix</h3>
+                    <i class="fa-regular fa-message"></i>
+                    <p class="desc">Briefly describe who you are</p>
+                    <a href="#" class="add-headline"><strong>Add Headline</strong></a>
+                </div>
+                <ul class="stats-list">
+                    <li><i class="fa-regular fa-circle-dot"></i><p>My profile viewer</p> <span>68</span></li>
+                    <li><i class="fa-solid fa-briefcase"></i> <p>Job application</p> <span>13</span></li>
+                    <li><i class="fa-solid fa-comments"></i> <p>Recruiter interviewed</p> <span>10</span></li>
+                    <li><i class="fa-solid fa-star"></i> <p>Saved favourite offers</p> <span>21</span></li>
+                </ul>
+            </div>
+            <div class="card p-0 overflow-hidden">
+                <div class="p-1" style="padding: 0px 10px;">
+                    <h4>Company Page info</h4>
+                </div>
+                <ul class="stats-list">
+                    <li><i class="fa-solid fa-shop"></i><p><strong>Create Company page</strong></p></li>
+                    <div class="profile-header1">
+                    <img src="airtel.jpg"  class="profile-img1">
+                </div>
+                    <li><i class="fa-solid fa-eye"></i> <p>Page visitors today</p> <span>99</span></li>
+                    <li><i class="fa-solid fa-user-plus"></i> <p>Page followers today</p> <span>47</span></li>
+                    <li><i class="fa-solid fa-users"></i> <p>Applicants show interests</p> <span>11</span></li>
+                </ul>
+            </div>
+            <div class="card p-0 overflow-hidden">
+                <div class="p-1" style="padding: 0px 10px;">
+                    <h4>Professional Group</h4>
+                </div>
+                <ul class="stats-list">
+                    <li><i class="fa-solid fa-users"></i> <p>Create new group</p> <span></span></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="col-feed">
+            <div class="feed-top-bar">
+                <h2>Home</h2>
+                <i class="fa-solid fa-list-check"></i>
+            </div>
+
+            <div class="card post-card">
+                <div class="post-input-row">
+                    <img src="passport.jpg" class="circle">
+                    <div class="side-by">
+                        <p>I have a Job, i can post to support Jobless !</p>
+                        <div class="post-options">
+                    <span class="blue-text"><i class="fa-solid fa-globe"></i> <p>Your Followers</p> <i class="fa-solid fa-caret-down"></i></span>
+                </div><hr>
+                <div class="post-footer">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="currency-pill">US$ 99.99 <i class="fa-solid fa-caret-down"></i></div>
+                    <button class="btn-post">Post</button>
+                    <span class="jobless-count">16,000 Jobless</span>
+                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="urgent-hiring-row">
+                <div class="hiring-card">
+                    <img src="airtel.jpg" class="logo">
+                    <h5>Airtel Rwanda <i class="fa-solid fa-circle-check"></i></h5>
+                    <p class="job">Network & System Administrator</p>
+                    <p class="edu">Bachelor Degree in Software Engineering</p>
+                    <button class="btn-urgent">Urgent Hiring !</button>
+                </div>
+                <div class="hiring-card">
+                    <img src="twapela.jpeg" class="logo">
+                    <h5>Twapela <i class="fa-solid fa-circle-check"></i></h5>
+                    <p class="job">Machine Learning Engineer</p>
+                    <p class="edu">Masters degree in Mathematics</p>
+                    <button class="btn-urgent">Urgent Hiring !</button>
+                </div>
+                <div class="hiring-card">
+                    <img src="mpuza.jpeg" class="logo">
+                    <h5>Mpuza, Inc. <i class="fa-solid fa-circle-check"></i></h5>
+                    <p class="job">Legal Officer</p>
+                    <p class="edu">Bachelor Degree in International Law</p>
+                    <button class="btn-urgent">Urgent Hiring !</button>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="co-header">
+                    <div class="rect"></div>
+                    <div class="follow">
+                        <span><i class="fa-solid fa-user-plus"></i> Follow</span>
+                        <i class="fa-regular fa-follow"></i>
+                    </div>
+                </div>
+                <div class="co-main">
+                    <div class="co-main1">
+                        <ul style="list-style: none;">
+                        <li><i class="fa-regular fa-circle-dot"></i> 3 vacant Positions</li>
+                        <li><i class="fa-regular fa-circle-dot"></i> 1 Year of Experience</li>
+                    </ul>
+                    </div>
+                    <div class="co-main2">
+                        <div class="co-hours">
+                            <span>04</span>
+                            <span>08</span>
+                            <span>44</span>
+                        </div>
+                        <div class="co-days">
+                            <span>Days</span>
+                            <span>Hours</span>
+                            <span>Minutes</span>
+                        </div>
+                    </div>
+                </div><hr>
+                <div class="co-footer">
+                    <span>
+                        <i class="fa-solid fa-heart" style="color: red;"></i>
+                        <p>
+                            <i class="fa-regular fa-message"></i>
+                            Comment
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-share"></i>
+                            Share
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-star"></i>
+                            Favourite
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="co-header">
+                    <div class="recting">
+                        <img src="cont-log.jpeg" alt="">
+                        <span>One Acre Fund <i class="fa-solid fa-circle-check" style="color: #00a8ff;"></i></span>
+                    </div>
+                    <div class="follow">
+                        <span><i class="fa-solid fa-user-plus"></i> Follow</span>
+                        <i class="fa-regular fa-follow"></i>
+                    </div>
+                </div>
+                <div class="co-main">
+                    <div class="co-main1">
+                        <ul style="list-style: none;">
+                        <li><i class="fa-regular fa-circle-dot"></i> 3 vacant Positions</li>
+                        <li><i class="fa-regular fa-circle-dot"></i> 1 Year of Experience</li>
+                        <li><i class="fa-regular fa-circle-dot"></i> Bachelor Degree in Software <strong>Engineering</strong></li>
+                    </ul>
+                    </div>
+                    <div class="co-main2">
+                        <div class="co-hours">
+                            <span>04</span>
+                            <span>08</span>
+                            <span>44</span>
+                        </div>
+                        <div class="co-days">
+                            <span>Days</span>
+                            <span>Hours</span>
+                            <span>Minutes</span>
+                        </div>
+                    </div>
+                </div><hr>
+                <div class="co-footer">
+                    <span>
+                        <i class="fa-solid fa-heart" style="color: red;"></i>
+                        <p>
+                            <i class="fa-regular fa-message"></i>
+                            Comment
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-share"></i>
+                            Share
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-star"></i>
+                            Favourite
+                        </p>
+                    </span>
+                </div>
+            </div>
+        </main>
+
+        <aside class="col-details">
+            <div class="col3-last">
+                <div class="profile-mini">
+                    <img src="prof22.jpeg" alt="">
+                    <span>We appreciate your Generosity !</span>
+                </div>
+                <div class="near-profile">
+                    <div class="favourite-job">
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            Favourite Jobs
+                        </div>
+                        <p>
+                            Click on interested Job <strong>Favourite icon</strong> To save it here to enable quick access !
+                        </p>
+                    </div>
+                    <div class="lost-internet">
+                        <img src="internt.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="job-header">
+                <div class="img-job">
+                    <img src="airtel.jpg" alt="">
+                </div>
+                <div class="airtel-inline">
+                    <div class="inline-airtel">
+                        <h4>Airtel Rwanda</h4>
+                        <i class="fa-solid fa-close"></i>
+                    </div>
+                    <div class="network-airtel">
+                        <h3>Network & System Administrator [Full-Time]</h3>
+                        <p>Telecommunication</p>
+                    </div>
+                    
+                <div class="job-des">
+                    <div class="timer-bar">
+                    <span class="span12time"><i class="fa-regular fa-star"></i></span>
+                    <div class="timer-units">
+                        <div class="unit">04<span>Days</span></div>
+                        <div class="unit">08<span>Hours</span></div>
+                        <div class="unit">44<span>Minutes</span></div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="card job-desc-card">
+                <div class="job-body">
+                    <h5>Job Description</h5>
+                    <p>This job will be based in Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5>Number of Positions</h5>
+                    <ul><li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></ul>
+                    <h5>Direct Supervisor</h5>
+                    <ul><li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></ul>
+                    <h5>Duties and Responsibilities</h5>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    </ul>
+                    <h5>Qualifications</h5>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    </ul>
+                    <h5>Experience</h5>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    </ul>
+                    <h5>Certificate</h5>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-dot"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
